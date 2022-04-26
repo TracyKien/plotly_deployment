@@ -111,8 +111,7 @@ function buildCharts(sample) {
     // 10. Use Plotly to plot the data with the layout. 
     Plotly.newPlot("bar", trace, barLayout);
 
-    // =======================================
-    // ============== Deliver_2 ==============
+    //  Deliver_2 
 
     // 1. Create the trace for the bubble chart.
     var bubbleData = [{
@@ -143,8 +142,7 @@ function buildCharts(sample) {
     // 3. Use Plotly to plot the data with the layout.
     Plotly.newPlot("bubble", bubbleData, bubbleLayout); 
 
-    // =================================================
-    // =============== Deliver_3 =======================
+    //  Deliver_3 
 
     // 1. Create a variable that filters the metadata array for the object with the desired sample number.
     var metadata = data.metadata;
